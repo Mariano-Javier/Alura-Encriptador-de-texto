@@ -1,14 +1,14 @@
+//declaración de variables
 let textoDeEntrada = document.querySelector("#input");
 let textoDeSalida = document.querySelector("#output");
-
-
 let botonEncriptar = document.querySelector(".botonEncriptar");
 let botonDesencriptar = document.querySelector(".botonDesencriptar");
 let botonInterior = document.querySelector(".botonInterior")
 
-
+//escondido del boton copiar
 document.querySelector(".botonInterior").style.display = "none";
 
+// evento que da funcionamiento al boton encriptar
 botonEncriptar.addEventListener("click", function () {
   let textoRecibido = textoDeEntrada.value;
   textoRecibido = textoRecibido.toLowerCase();
@@ -26,6 +26,7 @@ botonEncriptar.addEventListener("click", function () {
   
 });
 
+//evento que da funcionamiento al boton desencriptar
 botonDesencriptar.addEventListener("click",function(){
     let textoRecibido = textoDeEntrada.value;
     textoRecibido = textoRecibido.toLowerCase();
@@ -42,6 +43,7 @@ botonDesencriptar.addEventListener("click",function(){
     document.querySelector("#noEncontrado").style.display = "none";
 })
 
+//evento de copiado de texto
 botonInterior.addEventListener("click", function(){
    let copy = textoDeSalida.value
    navigator.clipboard.writeText(copy);
