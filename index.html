@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Oracle ONE - Encriptador de texto con Javascript</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+        <img class="imagen" src="imagenes/Logo.png" alt="Logo de Alura" />
+    </header>
+    <main>
+      <section class="principal">
+        <textarea type="text" name="" id="input" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+        <p class="advertencia"> <img src="imagenes/exclamacion.png" id="exclamacion" alt="icono de exclamacion">  Solo letras minúsculas y sin acentos</p>
+
+        <div class="botones">
+            <button class="botonEncriptar">Encriptar</button>
+            <button class="botonDesencriptar">Desencriptar</button>
+        </div>
+      </section>
+
+      <section class="respuesta">
+          <textarea type="text" name="" id="output" cols="30" rows="10"></textarea>
+          <img src="imagenes/noEncontrado.png" id="noEncontrado" alt="Imagen decorativa">
+          <p class="hiddenText"><strong> Ningún mensaje fue encontrado</strong> <br> <br>Ingresa el texto que desees encriptar o desencriptar.</p>
+          <button class="botonInterior">Copiar</button>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
