@@ -1,27 +1,41 @@
-# Alura Challenges Oracle ONE- Encriptador de texto
-Durante estas cuatro semanas, vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+# Encriptador de Texto - Alura Challenges Oracle ONE  
 
-Las "llaves" de encriptación que utilizaremos son las siguientes:
+Este proyecto es una aplicación web que permite encriptar y desencriptar textos utilizando un método simple de sustitución de caracteres. Fue desarrollado como parte del desafío **Alura Challenges Oracle ONE**.  
 
-`La letra "e" es convertida para "enter"`
-`La letra "i" es convertida para "imes"`
-`La letra "a" es convertida para "ai"`
-`La letra "o" es convertida para "ober"`
-`La letra "u" es convertida para "ufat"`
+## 🔐 Funcionamiento  
 
-**Requisitos:**
-- Debe funcionar solo con letras minúsculas
-- No deben ser utilizados letras con acentos ni caracteres especiales
-- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. 
+La aplicación convierte los textos según las siguientes reglas de encriptación:  
 
-Por ejemplo:
-`"gato" => "gaitober"`
-`gaitober" => "gato"`
+- `e` → `enter`  
+- `i` → `imes`  
+- `a` → `ai`  
+- `o` → `ober`  
+- `u` → `ufat`  
 
-- La página debe tener campos para 
-inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
-- El resultado debe ser mostrado en la pantalla.
+También permite revertir el proceso para recuperar el texto original.  
 
-**Extras:**
-- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `ctrl+C` o de la opción "copiar" del menú de las aplicaciones.
+## ✨ Características  
+
+✅ Solo admite letras minúsculas, sin acentos ni caracteres especiales.  
+✅ Permite encriptar y desencriptar textos.  
+✅ Muestra el resultado directamente en la pantalla.  
+✅ Incluye un botón para copiar el texto encriptado o desencriptado al portapapeles.  
+
+## 🛠️ Tecnologías utilizadas  
+
+- HTML  
+- CSS  
+- JavaScript  
+
+## 📌 Uso  
+
+1. Ingresa el texto en el campo correspondiente.  
+2. Selecciona si deseas encriptar o desencriptar.  
+3. Visualiza el resultado en pantalla.  
+4. Usa el botón de copiar para guardar el resultado en el portapapeles.  
+
+---
+
+🚀 Desarrollado para el **Alura Challenges Oracle ONE**.
+
 
