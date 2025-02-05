@@ -3,7 +3,7 @@
 
 ![alt text][logo]
 
-[logo]:https://i.ibb.co/8yz7BZN/Encriptador-de-texto-con-Javascript.png "Encriptador"
+[logo]:https://github.com/Mariano-Javier/Draw.io/blob/master/Encriptador%20de%20texto%20con%20Javascript.png "Encriptador"
 Este proyecto es una aplicación web que permite encriptar y desencriptar textos utilizando un método simple de sustitución de caracteres. Fue desarrollado como parte del desafío **Alura Challenges Oracle ONE**.  
 
 ## 🔐 Funcionamiento  
