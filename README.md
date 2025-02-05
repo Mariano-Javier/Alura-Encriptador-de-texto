@@ -1,5 +1,5 @@
 # Encriptador de Texto - Alura Challenges Oracle ONE  
-
+![alt text](https://i.ibb.co/8yz7BZN/Encriptador-de-texto-con-Javascript.png "Encriptador")
 Este proyecto es una aplicación web que permite encriptar y desencriptar textos utilizando un método simple de sustitución de caracteres. Fue desarrollado como parte del desafío **Alura Challenges Oracle ONE**.  
 
 ## 🔐 Funcionamiento  
