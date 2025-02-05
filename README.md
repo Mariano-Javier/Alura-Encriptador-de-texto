@@ -1,6 +1,6 @@
 # Encriptador de Texto - Alura Challenges Oracle ONE  
 
-Reference-style: 
+
 ![alt text][logo]
 
 [logo]:https://i.ibb.co/8yz7BZN/Encriptador-de-texto-con-Javascript.png "Encriptador"
